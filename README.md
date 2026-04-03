@@ -81,3 +81,4 @@ Transactions and active role are saved to `localStorage` and restored on page re
 - Recharts (BarChart, LineChart, PieChart)
 - Google Fonts: Sora + DM Sans
 - No CSS framework — all inline styles with CSS variables via `<style>` tag
+"# Fintrack" 
