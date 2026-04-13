@@ -31,7 +31,7 @@ export function SummaryCard({ label, value, icon, color, delta }) {
         <span style={{ fontSize: 22 }}>{icon}</span>
       </div>
       <div style={{ fontSize: 28, fontWeight: 700, color: "#f1f5f9", fontFamily: "'Sora', sans-serif", letterSpacing: "-0.02em" }}>
-        %<AnimatedNumber value={value} />
+         ₹<AnimatedNumber value={value} />
       </div>
       {delta !== undefined && (
         <div style={{ marginTop: 8, fontSize: 12, color: delta >= 0 ? COLORS.income : COLORS.expense, fontFamily: "'DM Sans', sans-serif" }}>
